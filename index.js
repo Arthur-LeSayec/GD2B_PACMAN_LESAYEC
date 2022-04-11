@@ -64,19 +64,19 @@ update (){
         player.setRotation(0);
     }
      if(keyD.isDown){
-    player.setVelocityX(100);
+    player.setVelocityX(200);
         player.direction = 'right';
 }
 else if(keyZ.isDown){
-    player.setVelocityY(-100);
+    player.setVelocityY(-200);
     player.direction = 'up';
 }
 else if(keyS.isDown){
-    player.setVelocityY(100);
+    player.setVelocityY(200);
     player.direction = 'down';
 }
 else if(keyQ.isDown){
-    player.setVelocityX(-100);
+    player.setVelocityX(-200);
     player.direction = 'left';
 }
 
